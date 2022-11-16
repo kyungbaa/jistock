@@ -6,9 +6,9 @@ import SearchModal from "../components/searchModal";
 const Mian = () => {
   return (
     <>
-      <SearchModal />
-      {/* <ContentsHeader />
-      <DataTable /> */}
+      {/* <SearchModal /> */}
+      <ContentsHeader />
+      <DataTable />
     </>
   );
 };

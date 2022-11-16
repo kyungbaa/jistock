@@ -1,13 +1,14 @@
-import React, { Children } from "react";
-import { Table, Space } from "antd";
+import React from "react";
+import { Table } from "antd";
 import styled from "styled-components";
 const DataTable = () => {
   const columns = [
     {
-      title: "일자",
+      title: "업종",
       dataIndex: "age",
       fixed: "left",
       align: "center",
+      sorter: (a, b) => a.age - b.age,
     },
     {
       title: "단위:억원",
@@ -134,61 +135,61 @@ const DataTable = () => {
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "4",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "5",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "6",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "7",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "8",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "9",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "10",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "11",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "12",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
     },
     {
-      key: "3",
+      key: "13",
       name: "Joe Black",
       age: 32,
       address: "Sidney No. 1 Lake Park",
